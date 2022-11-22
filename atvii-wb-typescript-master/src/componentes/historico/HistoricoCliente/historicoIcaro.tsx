@@ -1,8 +1,10 @@
+import { Component } from "react";
+
 type props = {
   tema: string;
 };
 
-export default class HistoricoVitoria extends Component<props> {
+export default class HistoricoIcaro extends Component<props> {
   componentDidMount() {
     var elems = document.querySelectorAll(".collapsible");
     M.Collapsible.init(elems);
