@@ -1,31 +1,28 @@
-import { Component, ReactNode } from "react";
+import { useEffect } from "react";
+import M from "materialize-css";
 
-type props = {
-    tema: string;
-};
+export default function HistoricoCondicionador() {
+  useEffect(() => {
+    var elems = document.querySelectorAll(".collapsible");
+    M.Collapsible.init(elems);
 
-export default class HistoricoCondicionador extends Component<props> {
+    var elemsModal = document.querySelectorAll(".modal");
+    M.Modal.init(elemsModal);
+  });
 
-    componentDidMount() {
-        var elems = document.querySelectorAll('.collapsible');
-        M.Collapsible.init(elems);
-
-        var elemsModal = document.querySelectorAll('.modal');
-        M.Modal.init(elemsModal);
-    }
-
-    render () {
-        return (
-            <ul>
-                <li>
-                    <div id="collapsibleBody" >
-                        <span>Icaro 1x</span><br />
-                        <span>Yasmin 3x</span><br />
-                        <hr />
-                        <span>Total vendido: 4</span><br />
-                    </div>
-                </li>
-            </ul>
-        )
-    }
+  return (
+    <ul>
+      <li>
+        <div id="collapsibleBody">
+          <span>Icaro 1x</span>
+          <br />
+          <span>Yasmin 3x</span>
+          <br />
+          <hr />
+          <span>Total vendido: 4</span>
+          <br />
+        </div>
+      </li>
+    </ul>
+  );
 }

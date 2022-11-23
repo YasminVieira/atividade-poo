@@ -1,19 +1,15 @@
-import { Component } from "react";
+import { useEffect } from "react";
+import M from "materialize-css";
 
-type props = {
-  tema: string;
-};
-
-export default class HistoricoIcaro extends Component<props> {
-  componentDidMount() {
+export default function HistoricoIcaro(){
+  useEffect(() => {
     var elems = document.querySelectorAll(".collapsible");
     M.Collapsible.init(elems);
 
     var elemsModal = document.querySelectorAll(".modal");
     M.Modal.init(elemsModal);
-  }
+  });
 
-  render() {
     return (
       <ul>
         <li>
@@ -40,5 +36,4 @@ export default class HistoricoIcaro extends Component<props> {
         </li>
       </ul>
     );
-  }
 }

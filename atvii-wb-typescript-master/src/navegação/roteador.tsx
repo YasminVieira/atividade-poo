@@ -1,46 +1,78 @@
-import { Component } from "react";
+import { useState } from "react";
 import BarraNavegacao from "./barraNavegacao";
 import FormularioCadastroCliente from "../componentes/formulários/formularioCadastroCliente";
 import ListaCliente from "../componentes/Lista/listaCliente";
+import ListaProduto from "../componentes/Lista/listaProdutos";
+import ListaServico from "../componentes/Lista/listaServico";
+import Listagem from "../componentes/Lista/listagem";
+import Home from "../home";
 
-type state = {
-    tela: string
-}
+export default function Roteador(){
+    const [tela, setTela] = useState("Serviços");
 
-export default class Roteador extends Component<{}, state> {
-    constructor(props: {} | Readonly<{}>) {
-        super(props)
-        this.state = {
-            tela: 'Clientes'
-        }
-        this.selecionarView = this.selecionarView.bind(this)
-    }
-
-    selecionarView(novaTela: string, evento: Event) {
-        evento.preventDefault()
-        console.log(novaTela);
-        this.setState({
-            tela: novaTela
-        })
-    }
-
-    render() {
-        let barraNavegacao = <BarraNavegacao seletorView={this.selecionarView} tema="purple lighten-4" botoes={['Clientes', 'Cadastros']} />
-        if (this.state.tela === 'Clientes') {
+    const seletorView = (valor: any, e: any) => {
+      e.preventDefault();
+      setTela(valor);
+    };
+  
+    const construirView = () => {
+        if (tela === "Home") {
             return (
-                <>
-                    {barraNavegacao}
-                    <ListaCliente tema="purple lighten-4" />
-                </>
-            )
-        } else {
-            return (
-                <>
-                    {barraNavegacao}
-                    <FormularioCadastroCliente tema="purple lighten-4" />
-                </>
-            )
-        }
-
-    }
+              <>
+                <BarraNavegacao
+                  seletorView={seletorView}
+                  tema="#ff4081 pink accent-2"
+                  botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
+                />
+                <Home />
+              </>
+            );
+          } else if (tela === "Clientes") {
+        return (
+          <>
+            <BarraNavegacao
+              seletorView={seletorView}
+              tema="#ff4081 pink accent-2"
+              botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
+            />
+            <ListaCliente />
+          </>
+        );
+      } else if (tela === "Produtos") {
+        return (
+          <>
+            <BarraNavegacao
+              seletorView={seletorView}
+              tema="#ff4081 pink accent-2"
+              botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
+            />
+            <ListaProduto />
+          </>
+        );
+      } else if (tela === "Serviços") {
+        return (
+          <>
+            <BarraNavegacao
+              seletorView={seletorView}
+              tema="#ff4081 pink accent-2"
+              botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
+            />
+            <ListaServico />
+          </>
+        );
+      } else if (tela === "Listagem") {
+        return (
+          <>
+            <BarraNavegacao
+              seletorView={seletorView}
+              tema="#ff4081 pink accent-2"
+              botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
+            />
+            <Listagem />
+          </>
+        );
+      } 
+    };
+  
+    return construirView();
 }
