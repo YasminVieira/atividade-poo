@@ -10,27 +10,27 @@ input[type=number] {
 }
 
 body {
-    background-color: #fce4ec;
+    background-color: #fff3e0;
     height: 100%;
 }
 
 a {
-    color: #ff4081;
+    color: #ffb74d;
 }
 
 a:hover {
-    color: #ff80ab;
+    color: #ffcc80;
 }
 
 #homeContainer {
-    background-color: #fce4ec;
+    background-color: #fff3e0;
     width: 90%;
     margin: 200px auto;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
     font-size: 40px;
-    color: #ff4081;
+    color: #ffb74d;
 }
 
 #backgroundClientContainer {
@@ -39,7 +39,7 @@ a:hover {
 
 #titleContainer {
     width: 30%;
-    background-color: #ff4081;
+    background-color: #ffb74d;
     border-radius: 0 20px 20px 0;
 }
 
@@ -63,7 +63,7 @@ a:hover {
 }
 
 #collapsibleHeader:hover {
-    background-color: #ff80ab;
+    background-color: #ffcc80;
     color: #FFF;
 }
 
@@ -148,7 +148,7 @@ a:hover {
 #cadastrarButtonContainer {
     color: #FFF;
     margin: 0 7px 0 0;
-    background-color: #ff80ab;
+    background-color: #ffcc80;
 }
 
 #cancelButton {
@@ -162,7 +162,7 @@ a:hover {
 /* ---------------------------------VENDA--------------------------------- */
 
 #vendaContainer {
-    background-color: #fce4ec;
+    background-color: #fff3e0;
     width: 40%;
     margin: 0 auto;
     padding: 30px;
@@ -178,7 +178,7 @@ a:hover {
 #confirmButtonVendaContainer {
     color: #FFF;
     width: 100%;
-    background-color: #ff80ab;
+    background-color: #ffcc80;
 }
 
 #vendaModalLine {
