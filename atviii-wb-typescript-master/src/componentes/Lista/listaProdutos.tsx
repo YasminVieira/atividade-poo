@@ -63,21 +63,21 @@ export default function ListaProduto() {
                 <a
                   href="#modalEdit"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">create</i>
                 </a>
                 <a
                   href="#"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse"
+                  className="btn-floating btn-medium orange lighten-3 pulse"
                 >
                   <i className="small material-icons">delete</i>
                 </a>
                 <a
                   href="#modalSell"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">monetization_on</i>
                 </a>
@@ -85,7 +85,7 @@ export default function ListaProduto() {
                   href="#modalHistory"
                   onClick={clickCondicionador}
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">access_time</i>
                 </a>
@@ -108,21 +108,21 @@ export default function ListaProduto() {
                 <a
                   href="#modalEdit"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">create</i>
                 </a>
                 <a
                   href="#"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse"
+                  className="btn-floating btn-medium orange lighten-3 pulse"
                 >
                   <i className="small material-icons">delete</i>
                 </a>
                 <a
                   href="#modalSell"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">monetization_on</i>
                 </a>
@@ -130,7 +130,7 @@ export default function ListaProduto() {
                   href="#modalHistory"
                   onClick={clickDesodorante}
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">access_time</i>
                 </a>
@@ -153,21 +153,21 @@ export default function ListaProduto() {
                 <a
                   href="#modalEdit"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">create</i>
                 </a>
                 <a
                   href="#"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse"
+                  className="btn-floating btn-medium orange lighten-3 pulse"
                 >
                   <i className="small material-icons">delete</i>
                 </a>
                 <a
                   href="#modalSell"
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">monetization_on</i>
                 </a>
@@ -175,7 +175,7 @@ export default function ListaProduto() {
                   href="#modalHistory"
                   onClick={clickShampoo}
                   id="editDeleteButton"
-                  className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                  className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"
                 >
                   <i className="small material-icons">access_time</i>
                 </a>
@@ -187,7 +187,7 @@ export default function ListaProduto() {
       <div id="addButtonContainer">
         <a
           href="#modalCadastro"
-          className="btn-floating btn-large pink accent-2 pulse modal-trigger"
+          className="btn-floating btn-large orange lighten-3 pulse modal-trigger"
         >
           <i className="large material-icons">add</i>
         </a>
@@ -195,7 +195,7 @@ export default function ListaProduto() {
       <div id="sellButtonContainer">
         <a
           href="#modalSellAll"
-          className="btn-floating btn-large pink accent-2 pulse modal-trigger"
+          className="btn-floating btn-large orange lighten-3 pulse modal-trigger"
         >
           <i className="large material-icons">monetization_on</i>
         </a>
@@ -204,7 +204,7 @@ export default function ListaProduto() {
       <div id="historyButtonContainer">
         <a
           href="#modalHistoryAll"
-          className="btn-floating btn-large pink accent-2 pulse modal-trigger"
+          className="btn-floating btn-large orange lighten-3 pulse modal-trigger"
         >
           <i className="large material-icons">access_time</i>
         </a>

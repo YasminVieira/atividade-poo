@@ -21,7 +21,7 @@ export default function Roteador(){
               <>
                 <BarraNavegacao
                   seletorView={seletorView}
-                  tema="#ff4081 pink accent-2"
+                  tema="#ffb74d orange lighten-2"
                   botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
                 />
                 <Home />
@@ -32,7 +32,7 @@ export default function Roteador(){
           <>
             <BarraNavegacao
               seletorView={seletorView}
-              tema="#ff4081 pink accent-2"
+              tema="#ffb74d orange lighten-2"
               botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
             />
             <ListaCliente />
@@ -43,7 +43,7 @@ export default function Roteador(){
           <>
             <BarraNavegacao
               seletorView={seletorView}
-              tema="#ff4081 pink accent-2"
+              tema="#ffb74d orange lighten-2"
               botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
             />
             <ListaProduto />
@@ -54,7 +54,7 @@ export default function Roteador(){
           <>
             <BarraNavegacao
               seletorView={seletorView}
-              tema="#ff4081 pink accent-2"
+              tema="#ffb74d orange lighten-2"
               botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
             />
             <ListaServico />
@@ -65,7 +65,7 @@ export default function Roteador(){
           <>
             <BarraNavegacao
               seletorView={seletorView}
-              tema="#ff4081 pink accent-2"
+              tema="##ffb74d orange lighten-2"
               botoes={["Home", "Clientes", "Produtos", "Serviços", "Listagem"]}
             />
             <Listagem />
