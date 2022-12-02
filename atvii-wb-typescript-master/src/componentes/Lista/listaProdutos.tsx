@@ -43,11 +43,11 @@ export default class ListaProduto extends Component<props, state>{
 
     historico() {
         if (this.state.nome === 'Desodorante') {
-            return (<HistoricoDesodorante tema="#ff4081 pink accent-2" />)
+            return (<HistoricoDesodorante tema="#ffb74d orange lighten-2" />)
         } else if (this.state.nome === 'Condicionador') {
-            return (<HistoricoCondicionador tema="#ff4081 pink accent-2" />)
+            return (<HistoricoCondicionador tema="#ffb74d orange lighten-2" />)
         } else if (this.state.nome === 'Shampoo') {
-            return (<HistoricoShampoo tema="#ff4081 pink accent-2" />)
+            return (<HistoricoShampoo tema="#ffb74d orange lighten-2" />)
         }
     }
 
@@ -77,10 +77,10 @@ export default class ListaProduto extends Component<props, state>{
                                 <span>Quantidade vendida: 5</span><br />
                                 <span>Quantidade em estoque: 10</span><br />
                                 <div id="editDeleteButtonContainer">
-                                    <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
-                                    <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i className="small material-icons">delete</i></a>
-                                    <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
-                                    <a href="#modalHistory" onClick={this.clickCondicionador} id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
+                                    <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
+                                    <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse"><i className="small material-icons">delete</i></a>
+                                    <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
+                                    <a href="#modalHistory" onClick={this.clickCondicionador} id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
 
                                 </div>
                             </div>
@@ -95,10 +95,10 @@ export default class ListaProduto extends Component<props, state>{
                                 <span>Quantidade em estoque: 13</span><br />
 
                                 <div id="editDeleteButtonContainer">
-                                    <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
-                                    <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i className="small material-icons">delete</i></a>
-                                    <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
-                                    <a href="#modalHistory" onClick={this.clickDesodorante} id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
+                                    <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
+                                    <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse"><i className="small material-icons">delete</i></a>
+                                    <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
+                                    <a href="#modalHistory" onClick={this.clickDesodorante} id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
                                 </div>
                             </div>
                         </li>
@@ -112,10 +112,10 @@ export default class ListaProduto extends Component<props, state>{
                                 <span>Quantidade em estoque: 3</span><br />
 
                                 <div id="editDeleteButtonContainer">
-                                    <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
-                                    <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i className="small material-icons">delete</i></a>
-                                    <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
-                                    <a href="#modalHistory" onClick={this.clickShampoo} id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
+                                    <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
+                                    <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse"><i className="small material-icons">delete</i></a>
+                                    <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
+                                    <a href="#modalHistory" onClick={this.clickShampoo} id="editDeleteButton" className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
 
                                 </div>
                             </div>
@@ -124,14 +124,14 @@ export default class ListaProduto extends Component<props, state>{
                     </ul>
                 </div>
                 <div id="addButtonContainer">
-                    <a href="#modalCadastro" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">add</i></a>
+                    <a href="#modalCadastro" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">add</i></a>
                 </div>
                 <div id="sellButtonContainer">
-                    <a href="#modalSellAll" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">monetization_on</i></a>
+                    <a href="#modalSellAll" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">monetization_on</i></a>
                 </div>
 
                 <div id="historyButtonContainer">
-                    <a href="#modalHistoryAll" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">access_time</i></a>
+                    <a href="#modalHistoryAll" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">access_time</i></a>
                 </div>
 
                 {/* ---------------------------------------------------------MODAL--------------------------------------------------------- */}
@@ -139,7 +139,7 @@ export default class ListaProduto extends Component<props, state>{
                 <div id="modalCadastro" className="modal modal-fixed-footer">
                     <div className="modal-content">
                         <h5>Cadastro de Produtos</h5>
-                        <CadastroProduto tema="#ff4081 pink accent-2" />
+                        <CadastroProduto tema="#ffb74d orange lighten-2" />
                     </div>
                     <div className="modal-footer">
                         <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -154,7 +154,7 @@ export default class ListaProduto extends Component<props, state>{
                 <div id="modalEdit" className="modal modal-fixed-footer">
                     <div className="modal-content">
                         <h5>Edição de Produtos</h5>
-                        <CadastroProduto tema="#ff4081 pink accent-2" />
+                        <CadastroProduto tema="#ffb74d orange lighten-2" />
                     </div>
                     <div className="modal-footer">
                         <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -169,7 +169,7 @@ export default class ListaProduto extends Component<props, state>{
                 <div id="modalSell" className="modal modal-fixed-footer">
                     <div className="modal-content">
                         <h5>Venda</h5>
-                        <VendaProduto tema="#ff4081 pink accent-2" />
+                        <VendaProduto tema="#ffb74d orange lighten-2" />
                     </div>
                     <div className="modal-footer">
                         <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -184,7 +184,7 @@ export default class ListaProduto extends Component<props, state>{
                 <div id="modalSellAll" className="modal modal-fixed-footer">
                     <div className="modal-content">
                         <h5>Venda</h5>
-                        <VendaProdutoAll tema="#ff4081 pink accent-2" />
+                        <VendaProdutoAll tema="#ffb74d orange lighten-2" />
                     </div>
                     <div className="modal-footer">
                         <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -199,7 +199,7 @@ export default class ListaProduto extends Component<props, state>{
                 <div id="modalHistoryAll" className="modal modal-fixed-footer">
                     <div className="modal-content">
                         <h5>Histórico de Vendas</h5>
-                        <HistoricoProduto tema="#ff4081 pink accent-2" />
+                        <HistoricoProduto tema="#ffb74d orange lighten-2" />
                     </div>
                     <div className="modal-footer">
                         <button id="cadastrarButtonContainer" type="submit" name="action" className="modal-close waves-effect waves-light btn-flat">

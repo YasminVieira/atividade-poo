@@ -42,9 +42,9 @@ type props = {
 
       historico() {
         if (this.state.nome === "Corte de Cabelo") {
-          return <HistoricoCorte tema="#ff4081 pink accent-2" />;
+          return <HistoricoCorte tema="#ffb74d orange lighten-2" />;
         } else if (this.state.nome === "Manicure e Pedicure") {
-          return <HistoricoBarba tema="#ff4081 pink accent-2" />;
+          return <HistoricoBarba tema="#ffb74d orange lighten-2" />;
         }
       }
 
@@ -78,21 +78,21 @@ type props = {
                       <a
                         href="#modalEdit"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">create</i>
                       </a>
                       <a
                         href="#"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse"
+                        className="btn-floating btn-medium orange lighten-2 pulse"
                       >
                         <i className="small material-icons">delete</i>
                       </a>
                       <a
                         href="#modalSell"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">monetization_on</i>
                       </a>
@@ -100,7 +100,7 @@ type props = {
                         href="#modalHistory"
                         onClick={this.clickCorte}
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">access_time</i>
                       </a>
@@ -121,21 +121,21 @@ type props = {
                       <a
                         href="#modalEdit"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">create</i>
                       </a>
                       <a
                         href="#"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse"
+                        className="btn-floating btn-medium orange lighten-2 pulse"
                       >
                         <i className="small material-icons">delete</i>
                       </a>
                       <a
                         href="#modalSell"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">monetization_on</i>
                       </a>
@@ -143,7 +143,7 @@ type props = {
                         href="#modalHistory"
                         onClick={this.clickBarba}
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">access_time</i>
                       </a>
@@ -165,21 +165,21 @@ type props = {
                       <a
                         href="#modalEdit"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">create</i>
                       </a>
                       <a
                         href="#"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse"
+                        className="btn-floating btn-medium orange lighten-2 pulse"
                       >
                         <i className="small material-icons">delete</i>
                       </a>
                       <a
                         href="#modalSell"
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">monetization_on</i>
                       </a>
@@ -187,7 +187,7 @@ type props = {
                         href="#modalHistory"
                         onClick={this.clickVazio}
                         id="editDeleteButton"
-                        className="btn-floating btn-medium pink accent-2 pulse modal-trigger"
+                        className="btn-floating btn-medium orange lighten-2 pulse modal-trigger"
                       >
                         <i className="small material-icons">access_time</i>
                       </a>
@@ -199,7 +199,7 @@ type props = {
             <div id="addButtonContainer">
               <a
                 href="#modalCadastro"
-                className="btn-floating btn-large pink accent-2 pulse modal-trigger"
+                className="btn-floating btn-large orange lighten-2 pulse modal-trigger"
               >
                 <i className="large material-icons">add</i>
               </a>
@@ -207,7 +207,7 @@ type props = {
             <div id="sellButtonContainer">
               <a
                 href="#modalSellAll"
-                className="btn-floating btn-large pink accent-2 pulse modal-trigger"
+                className="btn-floating btn-large orange lighten-2 pulse modal-trigger"
               >
                 <i className="large material-icons">monetization_on</i>
               </a>
@@ -215,7 +215,7 @@ type props = {
             <div id="historyButtonContainer">
               <a
                 href="#modalHistoryAll"
-                className="btn-floating btn-large pink accent-2 pulse modal-trigger"
+                className="btn-floating btn-large orange lighten-2 pulse modal-trigger"
               >
                 <i className="large material-icons">access_time</i>
               </a>
@@ -224,7 +224,7 @@ type props = {
             <div id="modalCadastro" className="modal modal-fixed-footer">
               <div className="modal-content">
                 <h5>Cadastro de Serviço</h5>
-                <CadastroServico tema="#ff4081 pink accent-2" />
+                <CadastroServico tema="#ffb74d orange lighten-2" />
               </div>
               <div className="modal-footer">
                 <button
@@ -257,7 +257,7 @@ type props = {
             <div id="modalEdit" className="modal modal-fixed-footer">
               <div className="modal-content">
                 <h5>Edição de Serviço</h5>
-                <CadastroServico tema="#ff4081 pink accent-2" />
+                <CadastroServico tema="#ffb74d orange lighten-2" />
               </div>
               <div className="modal-footer">
                 <button
@@ -290,7 +290,7 @@ type props = {
             <div id="modalSell" className="modal modal-fixed-footer">
               <div className="modal-content">
                 <h5>Venda</h5>
-                <VendaServico tema="#ff4081 pink accent-2" />
+                <VendaServico tema="#ffb74d orange lighten-2" />
               </div>
               <div className="modal-footer">
                 <button
@@ -323,7 +323,7 @@ type props = {
             <div id="modalSellAll" className="modal modal-fixed-footer">
               <div className="modal-content">
                 <h5>Venda</h5>
-                <VendaServicoAll tema="#ff4081 pink accent-2" />
+                <VendaServicoAll tema="#ffb74d orange lighten-2" />
               </div>
               <div className="modal-footer">
                 <button
@@ -356,7 +356,7 @@ type props = {
             <div id="modalHistoryAll" className="modal modal-fixed-footer">
               <div className="modal-content">
                 <h5>Histórico de Vendas</h5>
-                <HistoricoServico tema="#ff4081 pink accent-2" />
+                <HistoricoServico tema="#ffb74d orange lighten-2" />
               </div>
               <div className="modal-footer">
                 <button

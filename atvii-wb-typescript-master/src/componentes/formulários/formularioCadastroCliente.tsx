@@ -11,7 +11,7 @@ export default class FormularioCadastroCliente extends Component<props> {
   }
 
   render() {
-    let estiloBotao = `btn waves-effect waves-light ${this.props.tema}`;
+    let estiloBotao = `btn waves-effect waves-orange ${this.props.tema}`;
     return (
       <div className="row">
         <form className="col s12">

@@ -51,10 +51,10 @@ export default class ListaCliente extends Component<props, state> {
       historico() {
         if (this.state.nome === 'Yasmin') {
           console.log(this.state.nome);
-          return (<HistoricoYasmin tema="#ff4081 pink accent-2" />)
+          return (<HistoricoYasmin tema="#ffcc80 orange lighten-3" />)
         } else if (this.state.nome === 'Icaro') {
           console.log(this.state.nome);
-          return (<HistoricoIcaro tema="#ff4081 pink accent-2" />)
+          return (<HistoricoIcaro tema="#ffcc80 orange lighten-3" />)
         }
       }
 
@@ -85,10 +85,10 @@ export default class ListaCliente extends Component<props, state> {
                       <span>Sem Complemento</span><br />
       
                       <div id="editDeleteButtonContainer">
-                        <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
-                        <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i className="small material-icons">delete</i></a>
-                        <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
-                        <a href="#modalHistory" onClick={this.clickVazio} id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
+                        <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">create</i></a>
+                        <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse"><i className="small material-icons">delete</i></a>
+                        <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
+                        <a href="#modalHistory" onClick={this.clickVazio} id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
                       </div>
                     </div>
                   </li>
@@ -111,10 +111,10 @@ export default class ListaCliente extends Component<props, state> {
                       <span>123</span><br />
       
                       <div id="editDeleteButtonContainer">
-                        <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
-                        <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i className="small material-icons">delete</i></a>
-                        <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
-                        <a href="#modalHistory" onClick={this.clickYasmin} id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
+                        <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">create</i></a>
+                        <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse"><i className="small material-icons">delete</i></a>
+                        <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
+                        <a href="#modalHistory" onClick={this.clickYasmin} id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
                       </div>
                     </div>
                   </li>
@@ -137,10 +137,10 @@ export default class ListaCliente extends Component<props, state> {
                       <span>Sem Complemento</span><br />
       
                       <div id="editDeleteButtonContainer">
-                        <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">create</i></a>
-                        <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i className="small material-icons">delete</i></a>
-                        <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
-                        <a href="#modalHistory" onClick={this.clickIcaro} id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
+                        <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">create</i></a>
+                        <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse"><i className="small material-icons">delete</i></a>
+                        <a href="#modalSell" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">monetization_on</i></a>
+                        <a href="#modalHistory" onClick={this.clickIcaro} id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i className="small material-icons">access_time</i></a>
                       </div>
                     </div>
                   </li>
@@ -148,15 +148,15 @@ export default class ListaCliente extends Component<props, state> {
               </div>
       
               <div id="addButtonContainer">
-                <a href="#modalCadastro" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">add</i></a>
+                <a href="#modalCadastro" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">add</i></a>
               </div>
       
               <div id="sellButtonContainer">
-                <a href="#modalSellAll" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">monetization_on</i></a>
+                <a href="#modalSellAll" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">monetization_on</i></a>
               </div>
       
               <div id="historyButtonContainer">
-                <a href="#modalHistoryAll" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">access_time</i></a>
+                <a href="#modalHistoryAll" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">access_time</i></a>
               </div>
       
               {/* ----------------------------------------------------------------MODAL---------------------------------------------------------------- */}
@@ -164,7 +164,7 @@ export default class ListaCliente extends Component<props, state> {
               <div id="modalCadastro" className="modal modal-fixed-footer">
                 <div className="modal-content">
                   <h5>Cadastro de Cliente</h5>
-                  <FormularioCadastroCliente tema="#ff4081 pink accent-2" />
+                  <FormularioCadastroCliente tema="#ffb74d orange lighten-2" />
                 </div>
                 <div className="modal-footer">
                   <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -179,7 +179,7 @@ export default class ListaCliente extends Component<props, state> {
               <div id="modalEdit" className="modal modal-fixed-footer">
                 <div className="modal-content">
                   <h5>Edição de Cliente</h5>
-                  <FormularioCadastroCliente tema="#ff4081 pink accent-2" />
+                  <FormularioCadastroCliente tema="#ffb74d orange lighten-2" />
                 </div>
                 <div className="modal-footer">
                   <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -194,7 +194,7 @@ export default class ListaCliente extends Component<props, state> {
               <div id="modalSell" className="modal modal-fixed-footer">
                 <div className="modal-content">
                   <h5>Venda</h5>
-                  <VendaCliente tema="#ff4081 pink accent-2" />
+                  <VendaCliente tema="#ffb74d orange lighten-2" />
                 </div>
                 <div className="modal-footer">
                   <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -209,7 +209,7 @@ export default class ListaCliente extends Component<props, state> {
               <div id="modalSellAll" className="modal modal-fixed-footer">
                 <div className="modal-content">
                   <h5>Opções</h5>
-                  <Venda tema="#ff4081 pink accent-2" />
+                  <Venda tema="#ffb74d orange lighten-2" />
                 </div>
                 <div className="modal-footer">
                   <button id="cancelButtonContainer" className="modal-close waves-effect waves-light btn-flat">
@@ -224,7 +224,7 @@ export default class ListaCliente extends Component<props, state> {
               <div id="modalHistoryAll" className="modal modal-fixed-footer">
                 <div className="modal-content">
                   <h5>Histórico de Vendas</h5>
-                  <HistoricoCliente tema="#ff4081 pink accent-2" />
+                  <HistoricoCliente tema="#ffb74d orange lighten-2" />
                 </div>
                 <div className="modal-footer">
                   <button id="cadastrarButtonContainer" type="submit" name="action" className="modal-close waves-effect waves-light btn-flat">
