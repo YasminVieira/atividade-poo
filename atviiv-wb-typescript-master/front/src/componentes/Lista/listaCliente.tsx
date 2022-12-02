@@ -159,8 +159,8 @@ export default class ListaCliente extends Component<prop, state> {
                     <span>{item.endereco.informacoesAdicionais}</span><br />
 
                     <div id="editDeleteButtonContainer">
-                      <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse modal-trigger"><i id={item.id} onClick={this.onClickEdit} className="small material-icons">create</i></a>
-                      <a href="#" id="editDeleteButton" className="btn-floating btn-medium pink accent-2 pulse"><i id={item.id} onClick={this.onClickDelete} className="small material-icons">delete</i></a>
+                      <a href="#modalEdit" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse modal-trigger"><i id={item.id} onClick={this.onClickEdit} className="small material-icons">create</i></a>
+                      <a href="#" id="editDeleteButton" className="btn-floating btn-medium orange lighten-3 pulse"><i id={item.id} onClick={this.onClickDelete} className="small material-icons">delete</i></a>
                     </div>
                   </div>
                 </li>
@@ -170,13 +170,13 @@ export default class ListaCliente extends Component<prop, state> {
         </div>
 
         <div id="addButtonContainer">
-          <a href="#modalCadastro" className="btn-floating btn-large pink accent-2 pulse modal-trigger"><i className="large material-icons">add</i></a>
+          <a href="#modalCadastro" className="btn-floating btn-large orange lighten-3 pulse modal-trigger"><i className="large material-icons">add</i></a>
         </div>
 
         {/* ----------------------------------------------------------------MODAL---------------------------------------------------------------- */}
 
         <div id="modalCadastro" className="modal modal-fixed-footer">
-          <FormularioCadastroCliente tema="#ff4081 pink accent-2" />
+          <FormularioCadastroCliente tema="#ffb74d orange lighten-2" />
         </div>
         <div id="modalEdit" className="modal modal-fixed-footer">          
           {this.state.clienteSelected !== undefined ? <FormularioEdicaoCliente cliente={this.state.clienteSelected} /> : <></>}
